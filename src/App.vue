@@ -1,7 +1,7 @@
 <script setup>
 import { reactive } from "vue";
-import Cabecalho from "./components/Cabecalho.vue";
-import Formulario from "./components/Formulario.vue";
+import Cabecalho from "./components/Cabecalho.vue.";
+import Formulario from "./components/Formulario.vue.";
 import Resultado from "./components/Resultado.vue";
 
 const estado = reactive({
