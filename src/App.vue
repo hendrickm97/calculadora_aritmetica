@@ -1,8 +1,8 @@
 <script setup>
 import { reactive } from "vue";
-import Cabecalho from "./components/Cabecalho.vue.";
-import Formulario from "./components/Formulario.vue.";
-import Resultado from "./components/Resultado.vue";
+import Cabecalho from "./components/Header.vue";
+import Formulario from "./components/Form.vue";
+import Resultado from "./components/Result.vue";
 
 const estado = reactive({
   filtro: "soma",
